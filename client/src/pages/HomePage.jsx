@@ -34,7 +34,7 @@ function HomePage() {
   return (
     <div>
       <div className="app-overall">
-        <h1 className="header">เที่ยวไหนดี</h1>
+        <h1 className="header">เที่ยวที่ไหนดี</h1>
         <div className="product-search">
           <div className="message-input">
             <div>ค้นหาที่เที่ยว</div> <br />
