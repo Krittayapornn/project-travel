@@ -12,7 +12,7 @@ function HomePage() {
 
   const getDataSearch = async () => {
     const result = await axios.get(
-      `https://project-travel-server.vercel.app/trips?keywords=${messageInput}`
+      `https://react-tourist-attraction-mini-project-server.vercel.app/trips?keywords=${messageInput}`
     );
     setProduct(result.data.data);
   };
